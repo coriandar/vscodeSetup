@@ -22,7 +22,7 @@
     | Vim Toggle         | Super + Esc        |
     +--------------------+--------------------+
 
-## Settings
+## User Settings
     {
         // Main
         "workbench.colorTheme": "Catppuccin Mocha",
