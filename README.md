@@ -35,6 +35,7 @@
         "editor.cursorStyle": "block-outline",
         "workbench.layoutControl.enabled": false,
         "workbench.activityBar.visible": true,
+        "workbench.startupEditor": "none",
 
         // Indenting
         "editor.tabSize": 4,
