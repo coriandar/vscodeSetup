@@ -1,34 +1,51 @@
-# Extensions
+## Extensions
     Catpuccin Theme
-	Material Icon Theme
+    Material Icon Theme
     One Monokai Theme
     Theme by Language
     Vim
 
-# Settings
+## Shortcuts
+    +--------------------+--------------------+
+    | Move Line Down     | Alt + J            |
+    +--------------------+--------------------+
+    | Move Line Up       | Alt + K            |
+    +--------------------+--------------------+
+    | Copy Line Down     | Alt + D            |
+    +--------------------+--------------------+
+    | Delete Line        | Shift + Alt + D    |
+    +--------------------+--------------------+
+    | Indent Line        | Alt + L            |
+    +--------------------+--------------------+
+    | Outdent Line       | Alt + H            |
+    +--------------------+--------------------+
+    | Vim Toggle         | Super + Esc        |
+    +--------------------+--------------------+
+
+## Settings
     {
-        "editor.minimap.enabled": true,
-        "update.mode": "none",
+        // Main
         "workbench.colorTheme": "Catppuccin Mocha",
-        "editor.renderWhitespace": "all",
+        "workbench.iconTheme": "material-icon-theme",
         "editor.fontSize": 18,
-        "workbench.layoutControl.enabled": false,
-        "extensions.ignoreRecommendations": true,
+        "editor.minimap.enabled": true,
+        "editor.renderWhitespace": "all",
         "editor.lineNumbers": "relative",
         "editor.cursorBlinking": "solid",
         "editor.cursorStyle": "block-outline",
+        "workbench.layoutControl.enabled": false,
+        "workbench.activityBar.visible": true,
 
-        // tab to spaces onversion, can do for specific language as well
+        // Indenting
         "editor.tabSize": 4,
         "editor.detectIndentation": false,
         "editor.insertSpaces": true,
 
-        // themeing
+        // Themeing
         "theme-by-language.themes": {
             "*": "Catppuccin Mocha",
             "markdown": "One Monokai"
         },
-
         "workbench.colorCustomizations": {
             "[One Monokai]": {
                 "activityBar.background": "#11111b",
@@ -41,16 +58,5 @@
                 "tab.inactiveBackground": "#181825",
                 "titleBar.activeBackground": "#11111b"
             }
-        },
-        "workbench.activityBar.visible": false
+        }
     }
-
-    palette > vim toggle
-
-# Shortcuts
-    Move Line Down - Alt + J
-    Move Line Up   - Alt + K
-    Copy Line Down - Alt + D
-    Delete Line    - Shift + Alt + D
-    Indent Line   - Alt + L
-    Outdent Line   - Alt + H
