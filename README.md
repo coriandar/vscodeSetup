@@ -1,5 +1,5 @@
 ## Extensions
-    Catpuccin Theme
+    Catppuccin Theme
     Material Icon Theme
     One Monokai Theme
     Theme by Language
