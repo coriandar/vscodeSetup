@@ -41,6 +41,7 @@ Theme by Language
     "workbench.layoutControl.enabled": false,
     "workbench.activityBar.visible": true,
     "workbench.startupEditor": "none",
+    // "terminal.integrated.fontSize": 14,
 
     // Indenting
     "editor.tabSize": 4,
