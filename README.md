@@ -2,27 +2,27 @@
 ```
 Catppuccin Theme
 Material Icon Theme
+Vim
 One Monokai Theme
 Theme by Language
-Vim
 ```
 
 ## Shortcuts
 ```
 +--------------------+--------------------+
-| Move Line Down     | Alt + J            |
+| Move Line Down     | alt + j            |
 +--------------------+--------------------+
-| Move Line Up       | Alt + K            |
+| Move Line Up       | alt + k            |
 +--------------------+--------------------+
-| Copy Line Down     | Alt + D            |
+| Copy Line Down     | alt + d            |
 +--------------------+--------------------+
-| Delete Line        | Shift + Alt + D    |
+| Delete Line        | shift + alt + d    |
 +--------------------+--------------------+
-| Indent Line        | Alt + L            |
+| Indent Line        | alt + l            |
 +--------------------+--------------------+
-| Outdent Line       | Alt + H            |
+| Outdent Line       | alt + h            |
 +--------------------+--------------------+
-| Vim Toggle         | Super + Esc        |
+| Vim Toggle         | super + esc        |
 +--------------------+--------------------+
 ```
 
