@@ -29,7 +29,7 @@ Theme by Language
 ## User Settings
 ```json
 {
-    // Main
+    /* Main */
     "workbench.colorTheme": "Catppuccin Mocha",
     "workbench.iconTheme": "material-icon-theme",
     "editor.fontSize": 18,
