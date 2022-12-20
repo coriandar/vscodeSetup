@@ -3,6 +3,7 @@
 Catppuccin Theme
 Material Icon Theme
 Vim
+Quokka.js
 One Monokai Theme
 Theme by Language
 ```
