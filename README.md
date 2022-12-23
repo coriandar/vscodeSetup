@@ -28,13 +28,14 @@ Theme by Language
 ```
 
 ## User Settings
-```
+```js
 {
     // Main
     "workbench.colorTheme": "Catppuccin Mocha",
     "workbench.iconTheme": "material-icon-theme",
-    "editor.fontSize": 18,
+    "editor.fontSize": 16,
     "editor.minimap.enabled": true,
+    "editor.wordWrap": "off",
     "editor.renderWhitespace": "all",
     "editor.lineNumbers": "relative",
     "editor.cursorBlinking": "solid",
