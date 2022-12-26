@@ -33,10 +33,10 @@ vim.opt.relativenumber = true
 set nu
 set rnu
 
-nnoremp("j", "jzz")
-nnoremp("k", "kzz")
-nnoremp("<C-d>", "<C-d>zz")
-nnoremp("<C-u>", "<C-u>zz")
+nnoremap j jzz
+nnoremap k kzz
+nnoremap <C-d> <C-d>zz
+nnoremap <C-u> <C-u>zz
 
 ## User Settings
 ```json
