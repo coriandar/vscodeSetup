@@ -47,6 +47,7 @@ nnoremp("<C-u>", "<C-u>zz")
     "editor.fontSize": 16,
     "editor.minimap.enabled": true,
     "editor.wordWrap": "off",
+    "diffEditor.wordWrap": "off",
     "editor.renderWhitespace": "all",
     "editor.lineNumbers": "relative",
     "editor.cursorBlinking": "solid",
