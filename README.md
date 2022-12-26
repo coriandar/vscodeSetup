@@ -26,8 +26,20 @@ Theme by Language
 +--------------------+--------------------+
 ```
 
+## vimrc
+vim.opt.nu = true
+vim.opt.relativenumber = true
+
+set nu
+set rnu
+
+nnoremp("j", "jzz")
+nnoremp("k", "kzz")
+nnoremp("<C-d>", "<C-d>zz")
+nnoremp("<C-u>", "<C-u>zz")
+
 ## User Settings
-```js
+```json
 {
     // Main
     "workbench.colorTheme": "Catppuccin Mocha",
@@ -42,6 +54,8 @@ Theme by Language
     "workbench.layoutControl.enabled": false,
     "workbench.activityBar.visible": true,
     "workbench.startupEditor": "none",
+    "vim.vimrc.enable": true,
+    // "vim.vimrc.path": "/path/to/.vimrc"
     // "terminal.integrated.fontSize": 14,
 
     // Indenting
