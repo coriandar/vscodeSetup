@@ -27,6 +27,7 @@ Theme by Language
 ```
 
 ## vimrc
+```
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
@@ -37,6 +38,7 @@ nnoremap j jzz
 nnoremap k kzz
 nnoremap <C-d> <C-d>zz
 nnoremap <C-u> <C-u>zz
+```
 
 ## User Settings
 ```json
@@ -56,7 +58,7 @@ nnoremap <C-u> <C-u>zz
     "workbench.activityBar.visible": true,
     "workbench.startupEditor": "none",
     "vim.vimrc.enable": true,
-    // "vim.vimrc.path": "/path/to/.vimrc"
+    // "vim.vimrc.path": "/path/to/.vimrc",
     // "terminal.integrated.fontSize": 14,
 
     // Indenting
