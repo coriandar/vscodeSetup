@@ -21,18 +21,12 @@ Theme by Language
 +--------------------+--------------------+
 | Vim Toggle         | super + esc        |
 +--------------------+--------------------+
-// retire | Copy Line Down     | alt + d            |
-// retire | Delete Line        | shift + alt + d    |
-+--------------------+--------------------+
 ```
 
 ## vimrc
 ```
 vim.opt.nu = true
 vim.opt.relativenumber = true
-
-set nu
-set rnu
 
 nnoremap j jzz
 nnoremap k kzz
@@ -46,7 +40,15 @@ nnoremap <C-u> <C-u>zz
     // Main
     "workbench.colorTheme": "Catppuccin Mocha",
     "workbench.iconTheme": "material-icon-theme",
-    "editor.fontSize": 16,
+    "workbench.layoutControl.enabled": false,
+    "workbench.activityBar.visible": true,
+    "workbench.startupEditor": "none",
+    "update.enableWindowsBackgroundUpdates": false,
+    "update.mode": "none",
+    "telemetry.telemetryLevel": "off",
+
+    // Editor
+    "editor.fontSize": 18,
     "editor.minimap.enabled": true,
     "editor.wordWrap": "off",
     "diffEditor.wordWrap": "off",
@@ -54,12 +56,11 @@ nnoremap <C-u> <C-u>zz
     "editor.lineNumbers": "relative",
     "editor.cursorBlinking": "solid",
     "editor.cursorStyle": "block-outline",
-    "workbench.layoutControl.enabled": false,
-    "workbench.activityBar.visible": true,
-    "workbench.startupEditor": "none",
-    "vim.vimrc.enable": true,
-    // "vim.vimrc.path": "/path/to/.vimrc",
     // "terminal.integrated.fontSize": 14,
+
+    // Vim
+    "vim.vimrc.enable": true,
+    "vim.vimrc.path": "C:/Users/eeyudot/_/VSCode/data/.vimrc",
 
     // Indenting
     "editor.tabSize": 4,
