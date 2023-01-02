@@ -57,6 +57,10 @@ nnoremap <C-u> <C-u>zz
     "editor.cursorBlinking": "solid",
     "editor.cursorStyle": "block-outline",
     // "terminal.integrated.fontSize": 14,
+    "[markdown]": {
+        "editor.wordWrap": "off",
+        "diffEditor.wordWrap": "off"
+    },
 
     // Vim
     "vim.vimrc.enable": true,
