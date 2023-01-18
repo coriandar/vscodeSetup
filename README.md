@@ -23,6 +23,9 @@ Theme by Language
 +--------------------+--------------------+
 ```
 
+## Explorer
+... -> Open editors
+
 ## vimrc
 ```
 vim.opt.nu = true
